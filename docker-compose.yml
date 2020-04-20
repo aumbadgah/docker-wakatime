@@ -10,7 +10,7 @@ services:
     image: aumbadgah-wakatime
     container_name: aumbadgah-wakatime
     ports:
-      - 80:3000
+      - 3000:3000
     networks:
       - backend
     environment:

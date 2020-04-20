@@ -1,0 +1,22 @@
+{
+  "name": "aumbadgah-wakatime",
+  "version": "0.1.0",
+  "description": "Wakatime client service",
+  "main": "src/index.js",
+  "repository": "https://github.com/aumbadgah/aumbadgah-wakatime",
+  "author": "Antti Suoninen 2020",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "@types/ms": "^0.7.31",
+    "@types/node": "^13.7.7",
+    "@types/redis": "^2.8.16",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ms": "^2.1.2",
+    "redis": "^3.0.2"
+  }
+}

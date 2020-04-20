@@ -1,0 +1,29 @@
+version: "3.7"
+services:
+  redis:
+    image: redis:5-alpine
+    container_name: redis
+    networks:
+      - backend
+  aumbadgah-wakatime:
+    build: .
+    image: aumbadgah-wakatime
+    container_name: aumbadgah-wakatime
+    ports:
+      - 80:3000
+    networks:
+      - backend
+    environment:
+      - DEBUG=false
+      - INTERVAL=3m
+      - PORT=3000
+      - REDIS_HOST=redis
+      - WAKATIME_API_KEY=MY_WAKATIME_API_KEY
+      - WAKATIME_RANGE=last_6_months
+    volumes:
+      - ./src:/app/src
+      - ./package.json:/app/package.json
+      - ./yarn.lock:/app/yarn.lock
+
+networks:
+  backend:

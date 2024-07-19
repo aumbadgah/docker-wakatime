@@ -376,10 +376,6 @@ safe-buffer@5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
-safe-buffer@^5.0.1:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
-
 "safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -441,13 +437,3 @@ utils-merge@1.0.1:
 vary@^1, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
-
-wakatime-client@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/wakatime-client/-/wakatime-client-2.6.0.tgz#4210f1c48044707b3d0f45102601529562cd1610"
-
-wakatime-promise@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/wakatime-promise/-/wakatime-promise-0.6.0.tgz#ad0af00e37893da1ee4ab726d30a138c2b2903ff"
-  dependencies:
-    safe-buffer "^5.0.1"
